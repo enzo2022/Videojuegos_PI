@@ -1,0 +1,167 @@
+.fondo{
+    background-image: url(https://raw.githubusercontent.com/leotano1/PI--Videogames/f4be0a2d081f1474f8b5df0945cc9f463d6878c3/client/src/imgs/background.jpg);
+    background-size: 110%;
+   
+  }
+  .Card{
+    width: 210px;
+    height:200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+    
+}
+.SearchBar{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  
+}
+.cardsPaginate{
+    height: 120vh;
+    align-content: center;
+    justify-content: center;
+    background-image: radial-gradient(rgba(255, 255, 255, 0),rgb(0, 0, 0));
+    display: grid;
+    justify-content: space-evenly; 
+    grid-template-columns: auto auto  auto  auto auto;
+    grid-template-rows: auto auto auto auto auto  auto ;
+    align-content: space-between
+  }
+
+ 
+  .paginado{
+    height: 10vh;
+    
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+  }
+ 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  text-align: center;
+     padding: 1%;
+    background-color: rgb(17, 10, 26);
+    background-image: linear-gradient( to top left, rgb(19, 10, 32),rgb(60, 44, 83) );
+  
+    align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.component {
+  background-color: rgb(63, 34, 101);
+  padding: 10px;
+  margin-bottom: 10px;
+ 
+}
+.option{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: radial-gradient(rgba(255, 255, 255, 0),rgb(0, 0, 0));
+}
+
+.loading-container {
+  display: flex;
+ 
+  justify-content: center;
+  height: 120vh;
+  background-image: radial-gradient(rgba(255, 255, 255, 0),rgb(0, 0, 0));
+}
+
+.loading-bar {
+  width: 500px;
+  height: 18px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.loading-bar::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #4caf50;
+  animation: loadingAnimation 10s linear infinite;
+}
+
+.loading-text {
+  font-size: 29px;
+  font-weight: bold;
+  justify-items: center;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@media(max-width: 360px){
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 2px; 
+    text-align: center;
+       padding: 0%;
+  }
+
+  .option{
+    text-align: center;
+    font-size: 20px;
+  }
+  .paginado{
+    height: 300px;
+    
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+  }
+  .cardsPaginate{
+    height: 700vh;
+    align-content: center;
+    justify-content: center;
+    background-image: radial-gradient(rgba(255, 255, 255, 0),rgb(0, 0, 0));
+    display: grid;
+    justify-content: space-evenly; 
+    grid-template-columns: auto ;
+    grid-template-rows: auto  ;
+    align-content: space-between
+  }
+
+  .SearchBar{
+    /* display: grid; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    
+  }
+  }
+  

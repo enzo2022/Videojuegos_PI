@@ -1,0 +1,99 @@
+#lp-container{
+    background-image: url("https://raw.githubusercontent.com/Giuxpro/PI-VideoGames/main/client/src/Image/VGfondo.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#lp-container h3{
+    color: #fff;
+    font-size: 2em;
+    margin: -10px;
+}
+#lp-container h1{
+    color: #fff;
+    font-size: 10em;
+    margin: 0px;
+}
+#lp-container button {
+    background-color:darkgrey;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+
+    
+    }
+
+
+
+#lp-container button:hover{
+    font-size: 1.32em;
+    margin-bottom: -1px;
+    height: 52px;
+    width: 152px;
+    color: darkcyan;
+    border-radius: 30%;
+   
+}
+
+
+/* @media (max-width: 360px ) {
+    #lp-container {
+      height: auto;
+      padding: 20px;
+    }
+  
+    #lp-container h3 {
+      font-size: 1.5em;
+      margin: 4px 0;
+    }
+  
+    #lp-container h1 {
+      font-size: 4em;
+      margin: 0;
+    }
+  
+    #lp-container button {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+  
+    #lp-container button:hover {
+      font-size: 1em;
+      margin-bottom: -1px;
+      height: 32px;
+      width: 102px;
+    }
+  } */
+  @media (max-width: 360px) {
+    #lp-container {
+      height: auto;
+      padding: 20px;
+    }
+  
+    #lp-container h3 {
+      font-size: 1.2em;
+      margin: -5px 0;
+    }
+  
+    #lp-container h1 {
+      font-size: 4em;
+      margin: 0;
+    }
+  
+    #lp-container button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  
+    #lp-container button:hover {
+      font-size: 0.8em;
+      margin-bottom: -1px;
+      height: 24px;
+      width: 72px;
+    }
+  }
+  
