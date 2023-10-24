@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Detail from './components/detail';
 import VideogameCreate from './components/VideoGameCreate';
 import axios from 'axios';
-axios.defaults.baseURL = "https://videojuegos-pi.onrender.com/"
+axios.defaults.baseURL = "http://localhost:3000"
 
 
 function App() {
